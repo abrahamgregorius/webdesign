@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-head">
+            <div class="nav-left">
+                <h1>WebDev</h1>
+            </div>
+            <div id="nav-toggle" class="nav-toggle">&equiv;</div>
+        </div>
+        <div class="nav-body">
+            <div id="nav-right" class="nav-right">
+                <ul class="list">
+                    <li class="active">Home</li>
+                    <li>Products</li>
+                    <li>About</sli>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="sidebar">
+            <ul class="list">
+                <li class="active-dark">Home</li>
+                <li>Products</li>
+                <li>About</sli>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1>Hello world</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta laudantium itaque expedita perspiciatis iure doloribus aperiam asperiores unde amet facilis ipsa sunt cumque vel blanditiis mollitia, sed dolore aut veniam assumenda id maxime quasi consequuntur. Quas necessitatibus vel corrupti perferendis.</p>
+            <br>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur debitis, similique quaerat veritatis ipsa ex hic? Dignissimos dolor consectetur minima aperiam eius possimus. Iste ratione tempore non ducimus laborum magnam quo odio consectetur voluptatum perferendis impedit maxime nisi pariatur modi praesentium veniam sed, dolorem iure accusamus ea consequuntur a optio culpa. Blanditiis doloremque repudiandae iusto quos porro, voluptas nisi maxime magni exercitationem impedit incidunt quod nemo beatae recusandae aut repellendus nulla molestias, molestiae facere placeat, illo fugiat eos? Adipisci incidunt ea sapiente possimus quaerat magni sunt expedita maiores, aliquam, quidem aliquid inventore iusto earum illo assumenda veritatis alias eum sit?
+            </p>
+            <br>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis quasi modi ducimus vel. Accusantium tenetur aut sapiente est voluptatibus consectetur omnis ducimus cum impedit. Cum dolores minus hic quas dolorum aspernatur incidunt quidem tempore nesciunt velit quia provident consequatur adipisci, aut quod ut temporibus quasi! Provident, natus quisquam unde aliquam officia corrupti neque reiciendis. Sapiente dolore quam impedit minima iste consectetur neque tempore error iure a ipsam eveniet et nihil, repellendus soluta deserunt perspiciatis, doloribus mollitia provident molestiae dolor ipsum?</p>
+            <br>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio enim magni voluptatibus! Incidunt placeat suscipit sunt reprehenderit, consectetur magni cupiditate doloribus? Sapiente, illo sit in mollitia quis eligendi tempore, laudantium natus et fuga sed perspiciatis quaerat? Pariatur nesciunt maxime doloremque alias minima facere sunt velit vel facilis veritatis animi mollitia veniam eum optio reprehenderit eos fugit, unde officia laboriosam rem repellat fuga blanditiis ad? Voluptas doloremque accusamus quo perspiciatis sint vero hic officia? Sapiente odio, veniam sequi eius neque ad totam eveniet dolores voluptates architecto, assumenda magni, eos labore earum facere maxime vitae ab maiores at animi velit recusandae culpa cumque repellat? Voluptas a accusantium quo iste atque. Natus pariatur soluta quae dolorum voluptate? Fuga eaque suscipit saepe pariatur voluptas! Esse, placeat doloribus, necessitatibus quam velit blanditiis impedit temporibus, quidem quos nostrum magni dignissimos consequuntur ad. Aperiam beatae sint quis esse quibusdam veritatis aut illo fugit, cum iure suscipit perferendis.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At in tempora, explicabo debitis fugit libero nostrum, impedit enim delectus distinctio sunt repellendus dicta nihil amet autem eos aspernatur! Dignissimos, quasi aut? Repudiandae, consequuntur recusandae adipisci cumque voluptatem officia eligendi accusantium asperiores repellat, perferendis culpa tenetur eaque! Consequuntur officia, aliquam enim molestiae, expedita, explicabo deserunt consectetur dolorem eveniet ea voluptatem amet est facilis exercitationem beatae rerum quasi doloribus. Repellat, commodi illum, nulla, vel pariatur necessitatibus porro aut obcaecati a distinctio sed?</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="foot-left">
+            <h2>WebDev</h2>
+            <ul class="list">
+                <li>Home</li>
+                <li>Products</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="foot-center-left">
+            <h2>Resources</h2>
+            <ul class="list">
+                <li>Home</li>
+                <li>Products</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="foot-center-right">
+            <h2>Supports</h2>
+            <ul class="list">
+                <li>Home</li>
+                <li>Products</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="foot-right">
+            <h2>Help</h2>
+            <ul class="list">
+                <li>Home</li>
+                <li>Products</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        const navToggle = document.getElementById('nav-toggle')
+        const navRight = document.getElementById('nav-right')
+
+        navToggle.addEventListener('click', () => {
+            navRight.classList.toggle('show')
+        })
+
+    </script>
+</body>
+</html>

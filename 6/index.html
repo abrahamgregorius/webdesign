@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-left">
+            <h1>
+                Hello world
+            </h1>
+        </div>
+        <div class="nav-right">
+            <ul>
+                <li>Home</li>
+                <li id="product">Products
+                    <ul id="product-items">
+                        <li>Sport</li>
+                        <li>Music</li>
+                        <li>Movie</li>
+                    </ul>
+                </li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="content">
+        <h1>Hover over the products menu</h1>
+    </div>
+
+    <script>
+        const product = document.getElementById('product')
+        const productItems = document.getElementById('product-items')
+        product.addEventListener('mouseover', () => {
+            productItems.classList.add('show')
+        })
+        
+        productItems.addEventListener('mouseleave', () => {
+            productItems.classList.remove('show')
+        })
+
+    </script>
+</body>
+</html>

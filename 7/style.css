@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.app {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input h3 {
+    font-weight: 600;
+}
+
+.form-input input, select, textarea {
+    background-color: lightgrey;
+    border: 2px solid grey;
+    min-width: 250px;
+    padding: .8rem 1rem;
+    border-radius: .4rem;
+}
+
+.btn {
+    padding: .5rem 2rem;
+    border-radius: .4rem;
+    color: white;
+    border: 2px solid rgb(43, 11, 221);
+    background-color: rgb(27, 39, 206);
+    transition: .4s;
+    font-size: 16px;
+    font-weight: 500;
+    min-width: 250px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(17, 7, 160);
+}
